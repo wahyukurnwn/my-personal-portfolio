@@ -8,7 +8,7 @@ import { Footer } from "./(mainapp)/_components/footer";
 
 export default function Page() {
   return (
-    <main className="relative flex flex-col items-center justify-center mx-auto overflow-hidden dark:bg-black">
+    <main className="relative flex flex-col items-center justify-center mx-auto overflow-clip px-5 sm:px-10 dark:bg-black">
       <section className="w-full max-w-7xl">
         <FloatingNav navItems={navItems} />
         <Hero />

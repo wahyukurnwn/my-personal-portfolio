@@ -46,22 +46,18 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-3xl sm:text-4xl md:text-5xl  lg:text-6xl font-extrabold tracking-tight leading-tight 
-                     bg-linear-to-r from-pink-500 via-purple-500 to-blue-400 bg-clip-text text-transparent
-                    drop-shadow-[0_0_25px_rgba(150,100,255,0.25)]"
+            className="text-4xl md:text-5xl  lg:text-6xl font-extrabold tracking-tight leading-tight 
+                     bg-linear-to-r from-pink-500 via-purple-500  to-blue-400 bg-clip-text 
+                    drop-shadow-[0_0_6px_#042424] text-transparent"
           >
             Hello, I&apos;m Wahyu Kurniawan!
           </motion.h1>
 
-          <TextGenerateEffect
-            className="text-center text-[28px] md:text-[38px] lg:text-[44px] font-semibold 
-                       text-gray-800 dark:text-gray-100 leading-snug"
-            words="Driven by curiosity, crafting meaningful web experiences with modern technologies."
-          />
+          <TextGenerateEffect words="Driven by curiosity, crafting meaningful web experiences with modern technologies." />
 
-          <motion.p initial={{ opacity: 0, y: 25 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2, delay: 0.5 }} className="mt-6 text-base md:text-lg text-gray-400 max-w-xl leading-relaxed">
-            What started as curiosity became a passion for creating. I&apos;m a self-taught web developer from <span className="text-pink-600 font-medium">Jakarta</span>, continuously learning to craft experiences that connect people and
-            ideas.
+          <motion.p initial={{ opacity: 0, y: 25 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2, delay: 0.5 }} className="mt-6 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl leading-relaxed">
+            What started as curiosity became a passion for creating. I&apos;m a self-taught web developer from <span className="text-pink-300 drop-shadow-[0_0_6px_#e100ff] font-medium">Jakarta</span>, continuously learning to craft
+            experiences that connect people and ideas.
           </motion.p>
 
           <Link href="#projects">
